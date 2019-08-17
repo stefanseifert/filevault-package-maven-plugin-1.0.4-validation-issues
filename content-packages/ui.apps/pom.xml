@@ -28,9 +28,7 @@
         <groupId>org.apache.jackrabbit</groupId>
         <artifactId>filevault-package-maven-plugin</artifactId>
         <extensions>true</extensions>
-<!--
         <version>1.0.4</version>
--->
         <configuration>
           <name>${contentPackage.name}</name>
           <group>${contentPackage.group}</group>
