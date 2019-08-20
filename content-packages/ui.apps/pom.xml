@@ -39,7 +39,7 @@
           <name>${contentPackage.name}</name>
           <group>${contentPackage.group}</group>
           <packageType>content</packageType>
-          <jcrRootSourceDirectory>${project.build.outputDirectory}</jcrRootSourceDirectory>
+          <jcrRootSourceDirectory>${project.build.directory}/vault-work</jcrRootSourceDirectory>
         </configuration>
       </plugin>
 
