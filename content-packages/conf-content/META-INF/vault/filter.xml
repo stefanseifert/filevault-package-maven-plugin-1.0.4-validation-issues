@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <workspaceFilter version="1.0">
     <filter root="/conf/myproject1">
+        <include pattern="/conf/myproject1/settings/wcm(/.*)?" />
         <include pattern="/conf/myproject1/rep:policy"/>
-        <exclude pattern="/conf/myproject1/*"/>
     </filter>
-    <filter root="/conf/myproject1/settings/wcm"/>
 </workspaceFilter>
