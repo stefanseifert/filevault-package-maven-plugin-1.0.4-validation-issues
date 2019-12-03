@@ -23,15 +23,6 @@
 
   <build>
     <finalName>${contentPackage.name}-${project.version}</finalName>
-    <resources>
-      <resource>
-        <directory>jcr_root</directory>
-        <filtering>true</filtering>
-        <includes>
-          <include>**/.content.xml</include>
-        </includes>
-      </resource>
-    </resources>
 
     <plugins>
       <plugin>
@@ -43,7 +34,7 @@
           <name>${contentPackage.name}</name>
           <group>${contentPackage.group}</group>
           <packageType>mixed</packageType>
-          <jcrRootSourceDirectory>${project.build.outputDirectory}</jcrRootSourceDirectory>
+          <enableJcrRootFiltering>true</enableJcrRootFiltering>
         </configuration>
       </plugin>
     </plugins>
