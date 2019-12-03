@@ -26,6 +26,13 @@
     <resources>
       <resource>
         <directory>jcr_root</directory>
+        <filtering>false</filtering>
+        <excludes>
+          <exclude>**/.content.xml</exclude>
+        </excludes>
+      </resource>
+      <resource>
+        <directory>jcr_root</directory>
         <filtering>true</filtering>
         <includes>
           <include>**/.content.xml</include>
